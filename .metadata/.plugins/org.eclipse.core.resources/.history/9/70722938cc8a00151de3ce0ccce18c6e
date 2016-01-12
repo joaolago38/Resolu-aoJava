@@ -1,0 +1,10 @@
+package dinesshonjava.basic.sintaxe;
+
+public class ContinueWithLabelDemo {
+	public static void main(String[] args) {
+		String searchMe = "Look for a substring in me";
+		String substring = "sub";
+		boolean foundIt = false;
+		int max = searchMe.length() - substring.length();
+	}
+}

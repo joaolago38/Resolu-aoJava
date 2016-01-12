@@ -1,0 +1,29 @@
+package javacore;
+
+public class MyClass {
+	protected final String name = "John";
+
+	public MyClass() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getName() {
+		return this.name;
+	}
+
+	public static void main(String[] args) {
+		int number = 10;
+		number = number + 20;
+		System.out.println("number :" + number);
+		Byte myByte = 127;
+		System.out.println("myByte :" + myByte);
+		Float myFloat = 199.99F;
+    	String myString = "This is a text";
+    	float myFloat1 = 199.99f;
+    	float myFloat2 = myFloat1;
+    	float myFloat3 = myFloat2 + 123.45f; 
+    	System.out.println(myFloat3); 
+
+	}
+}

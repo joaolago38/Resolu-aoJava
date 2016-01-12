@@ -1,0 +1,20 @@
+package javacore;
+
+public class MyClass {
+	protected final String name = "John";
+
+	public MyClass() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getName() {
+		return this.name;
+	}
+
+	public static void main(String[] args) {
+		int number = 10;
+
+		number = number + 20;
+	}
+}
